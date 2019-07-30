@@ -112,6 +112,7 @@ a{
 
 nav{
   margin-left: .2rem;
+  overfollw:hidden;
 }
 h3{
   margin: .1rem 0;
