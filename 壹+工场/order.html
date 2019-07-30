@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>订单确认</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/> 
+		<link rel="stylesheet" type="text/css" href="css/order.css"/> 
+    
+	</head>
+	<body>
+      <header>
+        <div class="header">
+           <div class="header_content">
+              <div>￥ 1200/20 节</div>
+              <div>可使用20节</div>
+             
+           </div>
+            <div class="header_time">
+                 <span>ID &nbsp;4984848948484 </span>
+                 <span>有效期：2019.08.10-2022.08.10</span>
+            </div>
+        </div>
+        <div class="title">
+          <span style="font-weight: 600;">科学学习卡</span>
+          <span style="color:red; float: right;">￥ 1200/20 节</span>
+        </div> 
+      </header>
+
+      <div class="pay">
+          <span style="font-weight: 600;">支付方式</span>
+          <span style="font-weight: 600; float: right;">微信支付</span>
+      </div>
+
+      <footer>
+           <span style="font-weight: 600;color:red;line-height: .4rem;">￥<i style="font-size: .24rem;">1200</i></span>
+           <div class="go_pay">确认购买</div>
+      </footer>
+	</body>
+</html>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+
+  <script type="text/javascript">
+     var num= $('.nav_card').length
+     var width= $('.nav_card').width()
+    $('.nav_lists').width((width+50)*num) 
+  </script>

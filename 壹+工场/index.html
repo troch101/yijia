@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>个人中心</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/> 
+		<link rel="stylesheet" type="text/css" href="css/index.css"/> 
+    
+	</head>
+	<body>
+      <header>
+        <div class="header_h">
+          <div class="set"></div>
+          <div class="msg">
+            <span>1</span>
+          </div>
+        </div>
+        <div class="info">
+         <img src="images/2.jpg">
+         <span>萨达撒多</span>
+        </div>
+        <ul class="header_nav">
+           <li>
+            <a href="#">
+                 <div class="integral"></div>
+                 <span>我的积分</span>
+            </a>
+           </li>
+           <li>
+             <a href="#">
+                 <div class="course"></div>
+                 <span>我的课程</span>
+             </a>
+           </li>
+           <li>
+             <a href="#">
+                 <div class="coupon"></div>
+                 <span>我的优惠券</span>
+             </a>
+           </li>
+           <li>
+             <a href="#">
+                 <div class="check"></div>
+                 <span>点我签到</span>
+             </a>
+           </li>
+        </ul>
+      </header>
+      
+      <nav>
+        <h3>学习卡</h3>
+        <div class="nav_lists">
+           <div class="nav_card" style="background: url('images/nav_bg.png') no-repeat; background-size: 100% 100%;">
+             <div class="nav_card_con">￥ 1200/20 节</div>
+             <a href='order.html' class="buy">立即购买</a>
+           </div>
+           <div class="nav_card" style="background: url('images/nav_bg.png') no-repeat; background-size: 100% 100%;">
+             <div class="nav_card_con">￥ 1200/20 节</div>
+             <a href='order.html' class="buy">立即购买</a>
+           </div>
+           <div class="nav_card" style="background: url('images/nav_bg.png') no-repeat; background-size: 100% 100%;">
+             <div class="nav_card_con">￥ 1200/20 节</div>
+             <a href='order.html' class="buy">立即购买</a>
+           </div>
+            <div class="nav_card" style="background: url('images/nav_bg.png') no-repeat; background-size: 100% 100%;">
+             <div class="nav_card_con">￥ 1200/20 节</div>
+             <a href='order.html' class="buy">立即购买</a>
+           </div>
+        </div>
+      </nav>
+      
+      <section>
+        <ul class="section_lists">
+          <li>
+            <a>
+              <div class="card"></div>
+              <span>我的学习卡</span>
+              <div class="right"></div>
+            </a>
+          </li> 
+          <li>
+            <a>
+              <div class="reservation"></div>
+              <span>我的预约</span>
+              <div class="right"></div>
+            </a>
+          </li> 
+          <li>
+            <a>
+              <div class="feedback"></div>
+              <span>意见反馈</span>
+              <div class="right"></div>
+            </a>
+          </li> 
+          <li>
+            <a>
+              <div class="about"></div>
+              <span>关于我们</span>
+              <div class="right"></div>
+            </a>
+          </li> 
+
+
+        </ul>
+      </section>
+	</body>
+</html>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+
+  <script type="text/javascript">
+     var num= $('.nav_card').length
+     var width= $('.nav_card').width()
+    $('.nav_lists').width((width+50)*num) 
+  </script>

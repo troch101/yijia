@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>我的预约</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/> 
+		<link rel="stylesheet" type="text/css" href="css/reservation.css"/> 
+    
+	</head>
+	<body>
+      <section>
+        <div class="cover"></div>
+        <ul class="personal_information">
+          <li>
+             <span>课程名称</span>
+             <div class="position_rel">
+                <input type="text" class="inputs" id="course" readonly="readonly"  placeholder='选择课程名称'/>
+                <img class="dowm_left" src="images/left.png" alt=""/>
+                <div class="hidden courses" style="display: none;">
+                  <ul>
+                    <li title="儿童与科学的实践">
+                      儿童与科学的实践
+                    </li>
+                    <li title="女">
+                      女
+                    </li>
+                  </ul>
+                  </div>
+              </div>
+          </li>
+          <li>
+             <span>市级选择</span>
+             <div class="position_rel">
+                <input type="text" class="inputs" id="city" readonly="readonly"  placeholder='选择市级'/>
+                <img class="dowm_left" src="images/left.png" alt=""/>
+                <div class="hidden citys" style="display: none;">
+                  <ul>
+                    <li title="深圳市">
+                      深圳市
+                    </li>
+                    <li title="广州市">
+                      广州市
+                    </li>
+                  </ul>
+                  </div>
+              </div>
+          </li>
+          <li>
+             <span>区/县选择</span>
+             <div class="position_rel">
+                <input type="text" class="inputs" id="area" readonly="readonly"  placeholder='选择区/县'/>
+                <img class="dowm_left" src="images/left.png" alt=""/>
+                <div class="hidden areas" style="display: none;">
+                  <ul>
+                    <li title="宝安区">
+                      宝安区
+                    </li>
+                    <li title="南山区">
+                      南山区
+                    </li>
+                    <li title="福田区">
+                      福田区
+                    </li>
+                    <li title="罗湖区">
+                      罗湖区
+                    </li>
+                    <li title="龙华区">
+                      龙华区
+                    </li>
+                  </ul>
+                  </div>
+              </div>
+          </li>
+          <li>
+             <span>上课地点选择</span>
+             <div class="position_rel">
+                <input type="text" class="inputs" id="location" readonly="readonly"  placeholder='选择上课地点'/>
+                <img class="dowm_left" src="images/left.png" alt=""/>
+                <div class="hidden locations" style="display: none;">
+                  <ul>
+                    <li title="宝安区">
+                      宝安区
+                    </li>
+                    <li title="南山区">
+                      南山区
+                    </li>
+                    <li title="福田区">
+                      福田区
+                    </li>
+                    <li title="罗湖区">
+                      罗湖区
+                    </li>
+                    <li title="龙华区">
+                      龙华区
+                    </li>
+                  </ul>
+                  </div>
+              </div>
+          </li>
+          <li>
+             <span>上课时间选择</span>
+             <div class="position_rel">
+                <input type="text" class="inputs" id="time" readonly="readonly"  placeholder='选择区/县'/>
+                <img class="dowm_left" src="images/left.png" alt=""/>
+                <div class="hidden times" style="display: none;">
+                  <ul>
+                    <li title="2019-10-1 19:00">
+                      2019-10-1 19:00
+                    </li>
+                    <li title="南山区">
+                      南山区
+                    </li>
+                    <li title="福田区">
+                      福田区
+                    </li>
+                    <li title="罗湖区">
+                      罗湖区
+                    </li>
+                    <li title="龙华区">
+                      龙华区
+                    </li>
+                  </ul>
+                  </div>
+              </div>
+          </li>
+          <li>
+             <span>填写预留电话</span>
+             <div class="position_rels">
+                <input type="text"  id="phone"   placeholder='填写预留电话'/>
+                <div class="yzm">发送验证码</div>
+              </div>
+          </li>
+          <li>
+             <span>请输入手机验证码</span>
+             <div class="position_rel">
+                <input type="text" class="inputs" id="yzm_num"   placeholder='请输入手机验证码'/>
+              </div>
+          </li>
+        </ul>
+        
+        <div class="reservation_now"><span>立即预约</span></div>
+      </section>
+	</body>
+</html>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/reservation.js"></script>
+

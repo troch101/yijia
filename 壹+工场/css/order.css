@@ -1,0 +1,64 @@
+
+header{
+  padding:0.15rem 0.15rem 0 0.15rem;
+  background: #fff;
+  margin: .2rem 0;
+}
+
+.header{
+   background: url(../images/nav_bg.png) no-repeat;
+   background-size: 100% 100%;
+   height: 1.6rem;
+   padding: .2rem;
+   border-radius: 0.08rem;
+   overflow: hidden;
+   color: #fff;
+   position: relative;
+}
+img{
+   object-fit: cover ! important; 
+}
+a{
+  display: block;
+}
+.header_content{
+  position: absolute;
+  bottom: .3rem;
+  left: .3rem;
+}
+.header_content>div{
+  line-height: .3rem;
+}
+.header_time{
+  font-size: .1rem;
+  position: absolute;
+  bottom: 0.15rem;
+}
+.title{
+  height: .5rem;
+  line-height: .5rem;
+}
+
+.pay{
+   height: .5rem;
+  line-height: .5rem;
+  padding:0 .2rem;
+  background: #fff;
+}
+footer{
+    height: .4rem;
+    padding:.2rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+}
+.go_pay{
+    font-weight: 600;
+    float: right;
+    color: #fff;
+    padding: .1rem .15rem;
+    height: .2rem;
+    background: red;
+    border-radius: .06rem;
+}
