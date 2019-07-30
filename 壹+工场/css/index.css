@@ -112,16 +112,18 @@ a{
 
 nav{
   margin-left: .2rem;
-  overflow: hidden;
+  width: 100%;
+  overflow-x: scroll;/* 定义超出此盒子滚动 */
+  overflow-y: hidden;
 }
 h3{
   margin: .1rem 0;
   font-weight: 600;
+
 }
 .nav_lists{
 /*  float: left;*/
 height: 1.33rem;
-overflow-x:scroll;
 /*width: 1000%;*/
 }
 .nav_card{
