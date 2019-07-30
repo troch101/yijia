@@ -112,7 +112,7 @@ a{
 
 nav{
   margin-left: .2rem;
- overflow: hidden;
+  overflow: hidden;
 }
 h3{
   margin: .1rem 0;
@@ -121,7 +121,7 @@ h3{
 .nav_lists{
 /*  float: left;*/
 height: 1.33rem;
-overflow-x: auto;
+overflow-x:scroll;
 /*width: 1000%;*/
 }
 .nav_card{
