@@ -1,0 +1,208 @@
+
+
+/*header{
+  margin: 0.5rem 0;
+}*/
+header{
+   background: url(../images/header.png) no-repeat;
+   background-size: 100% 100%;
+   height: 1.8rem;
+   margin: .05rem;
+   padding: .1rem .15rem;
+   border-radius: 0.05rem;
+   overflow: hidden;
+}
+img{
+   object-fit: cover ! important; 
+}
+a{
+  display: block;
+}
+.header_h{
+  width: 0.9rem;
+  float: right;
+  height: 0.3rem;
+  display: flex;
+}
+.set{
+  margin-top: 0.05rem;
+  width: .25rem;
+  height: .25rem;
+  background: url(../images/set.png) no-repeat;
+   background-size: 100% 100%;
+}
+.msg{
+  position: relative;
+  margin-left: .25rem;
+  width: .35rem;
+  height: .3rem;
+  background: url(../images/msg.png) no-repeat;
+   background-size: 100% 100%;
+}
+.msg>span{
+    position: absolute;
+    font-size: .1rem;
+    color: #80F5D7;
+    right: 0rem;
+    top: -0.02rem;
+    display: block;
+    width: 0.13rem;
+    text-align: center;
+}
+.info{
+    height: 0.62rem;
+    display: flex;
+    width: 96%;
+    margin-left: 5%;
+}
+.info>img{
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.info>span{
+  height: 0.6rem;
+  font-size: .18rem;
+  line-height: 0.6rem;
+  margin-left: .1rem;
+  color: #fff;
+}
+
+.header_nav>li{
+  width: 25%;
+  float: left;
+  margin-top: .2rem;
+}
+.integral{
+  margin: 0.1rem auto;
+  width: .23rem;
+  height: .25rem;
+  background: url(../images/integral.png) no-repeat;
+  background-size: 100% 100%;
+}
+.header_nav>li>a>span{
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: .14rem;
+}
+.course{
+  margin: 0.1rem auto;
+  width: .3rem;
+  height: .25rem;
+  background: url(../images/course.png) no-repeat;
+  background-size: 100% 100%;
+}
+.coupon{
+  margin: 0.1rem auto;
+  width: .26rem;
+  height: .25rem;
+  background: url(../images/coupon.png) no-repeat;
+  background-size: 100% 100%;
+}
+.check{
+  margin: 0.1rem auto;
+  width: .25rem;
+  height: .25rem;
+  background: url(../images/check.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+
+nav{
+  margin-left: .2rem;
+  width:95%;
+  overflow-x: scroll;/* 定义超出此盒子滚动 */
+  overflow-y: hidden;
+}
+h3{
+    padding-left: .2rem;
+    margin: .13rem 0;
+    font-weight: 600;
+}
+.nav_lists{
+/*  float: left;*/
+height: 1.33rem;
+/*width: 1000%;*/
+}
+.nav_card{
+    margin-right: .2rem;
+    width: 2rem;
+    height: 1.1rem;
+    float: left;
+    border-radius: .1rem;
+    padding: .1rem;
+    -moz-box-shadow: 2px 2px 5px #333333;
+    -webkit-box-shadow: 2px 2px 5px #333333;
+    box-shadow: 2px 2px 5px #333333;
+}
+.nav_card_con{
+    margin-top: 0.55rem;
+    color: #fff;
+    font-size: .1rem;
+    padding: .08rem 0;
+}
+.buy{
+    width: 0.8rem;
+    line-height: .25rem;
+    height: .25rem;
+    text-align: center;
+    background: #FCE8A3;
+    border-radius: .14rem;
+    font-weight: 600;
+    font-size: .14rem;
+    color: #FC6A31;
+}
+
+
+section{
+  background: #fff;
+  margin: .13rem 0;
+  min-height: 2rem;
+}
+ul{
+  overflow: hidden;
+}
+.section_lists>li>a{
+  display: flex;
+  height: .2rem;
+  padding: .15rem;
+  border-bottom: 1px solid #EEEEEE;
+}
+.section_lists>li>a>span{
+      flex: 1;
+      margin-left: .1rem;
+      line-height: .2rem;
+      font-weight: 600;
+}
+.card{
+  width: .25rem;
+  height: .2rem;
+  background: url(../images/card.png) no-repeat;
+  background-size: 100% 100%;
+}
+.reservation{
+   width: .2rem;
+  height: .2rem;
+  background: url(../images/reservation.png) no-repeat;
+  background-size: 100% 100%;
+}
+.feedback{
+   width: .2rem;
+  height: .2rem;
+  background: url(../images/feedback.png) no-repeat;
+  background-size: 100% 100%;
+}
+.about{
+   width: .2rem;
+  height: .2rem;
+  background: url(../images/about.png) no-repeat;
+  background-size: 100% 100%;
+}
+.right{
+  width: .2rem;
+  height: .2rem;
+  background: url(../images/right.png) no-repeat;
+  background-size: 100% 100%;
+}
